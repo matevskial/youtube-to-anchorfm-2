@@ -7,7 +7,6 @@ This Github action will upload an audio file from a given YouTube video automati
 It is very useful in a scenario where you have a YouTube account and also a podcast over Anchor.fm
 
 NOTE: This is a reimplementation of the original [youtube-to-anchorfm](https://github.com/Schrodinger-Hat/youtube-to-anchorfm) from Schrodinger-Hat.
-
 This reimplementation simplifies the usage of the dependencies for chromium and yt-dlp
 using the npm packages ```youtube-dl-exec```, which downloads ```yt-dlp``` automatically and ```pupeteer```, which downloads chromium browser automatically. This makes it easy to run the script locally, without building a docker image or running it only as a Github action.
 
